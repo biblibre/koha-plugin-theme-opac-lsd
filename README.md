@@ -2,7 +2,7 @@
 
 ## Presentation
 
-Some psychotic CSS rules for OPAC.
+Some psychedelic CSS rules for OPAC.
 
 Its main purpose is to create on a test/dev server an explicit visual difference with production server.
 
