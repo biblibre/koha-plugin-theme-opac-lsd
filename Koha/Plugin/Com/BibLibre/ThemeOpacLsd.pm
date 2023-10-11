@@ -6,14 +6,14 @@ use base qw(Koha::Plugins::Base);
 
 use C4::Context;
 
-our $VERSION = '1.0';
+our $VERSION = '1.1';
 
 our $metadata = {
     name   => 'Theme OPAC LSD',
     author => 'BibLibre',
     description => 'An hallucinating theme for OPAC',
     date_authored   => '2021-08-16',
-    date_updated    => '2021-08-16',
+    date_updated    => '2023-10-10',
     minimum_version => '19.11',
     maximum_version => undef,
     version         => $VERSION,
@@ -60,10 +60,10 @@ sub opac_head {
  * LSD OPAC Theme
  */
 body {
-    background-color: turquoise;
+    background-color: ivory;
 }
 .breadcrumb {
-    background-color: bisque;
+    background-color: indigo;
 }
 </style>
 |;
